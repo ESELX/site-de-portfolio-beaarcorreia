@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import url("<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"> ");
 
 /*
 	Landed by HTML5 UP
@@ -96,10 +96,17 @@ input, select, textarea {
 		-ms-transition: none !important;
 		transition: none !important;
 	}
+	h2 {
+	color: #000000;
+	font-family: "Bebas", Helvetica, serif;
+	font-size: 15pt;
+	font-weight: 100;
+	line-height: 1.75em;
 
+	}
 	body, input, select, textarea {
 		color: #000000;
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: "Bitter", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
@@ -203,7 +210,7 @@ input, select, textarea {
 	code {
 		background: #000000;
 		border-radius: 4px;
-		font-family: "Courier New", monospace;
+		font-family: "Bebas", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -211,7 +218,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Bebas", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -2181,14 +2188,6 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		header.major:after {
-			background: #ffffff;
-			content: '';
-			display: inline-block;
-			height: 0.2em;
-			max-width: 20em;
-			width: 75%;
-		}
 
 	footer.major {
 		margin: 4em 0 0 0;
@@ -2229,7 +2228,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out;
 		background: #ffffff;
 		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: solid 1px #000000;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2343,7 +2342,7 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #000000;
-			color: #ffffff;
+			color: #000000;
 			content: '\f00c';
 		}
 
